@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7af9b334e3ee9224a8f00950fa9dbff7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI Engine - Dialog, actions, voice and lipsync - Convai
+  packageVersion: 4.4.1
+  assetPath: Assets/Convai SDK For Unity/SamplesShared/Art/Animations/Dialogue/Clips/ConvaiSample_DialogueIdle_NeutralLoop.anim
+  uploadId: 964386

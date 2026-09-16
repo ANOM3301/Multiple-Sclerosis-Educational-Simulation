@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee72f77f95ef470ca9bda1cee186ec1, type: 3}
+  m_Name: ConvaiSettings
+  m_EditorClassIdentifier: Convai.Runtime::Convai.Runtime.ConvaiSettings
+  _apiKey: 
+  _serverUrl: https://live.convai.com
+  _playerName: 
+  _defaultMicrophoneIndex: 0
+  _connectionTimeout: 30
+  _nativeRuntimeMode: 1
+  _globalLogLevel: 3
+  _includeStackTraces: 1
+  _coloredOutput: 1
+  _categoryOverrides: []
+  _transcriptSystemEnabled: 1
+  _notificationSystemEnabled: 0
+  _activeTranscriptStyleIndex: 0

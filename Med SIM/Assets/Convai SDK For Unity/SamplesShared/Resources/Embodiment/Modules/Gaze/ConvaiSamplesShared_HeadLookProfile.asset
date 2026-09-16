@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4764972ba201bc14da3a210686fc6562, type: 3}
+  m_Name: ConvaiSamplesShared_HeadLookProfile
+  m_EditorClassIdentifier: Convai.Modules.Gaze::Convai.Modules.Gaze.Profiles.HeadLookProfile
+  maxNeckYaw: 38
+  maxNeckPitch: 26
+  maxHeadYaw: 18
+  maxHeadPitch: 14
+  smoothingSharpness: 5.5
+  returnSharpness: 5
+  idleSharpness: 2.2
+  maxYawSpeedDegrees: 160
+  maxPitchSpeedDegrees: 120
+  deadzoneDegrees: 1.2
+  enableIdleExploration: 1
+  idleExplorationWeight: 0.7
+  idleExplorationYawDegrees: 15
+  idleExplorationUpDegrees: 2
+  idleExplorationDownDegrees: 4
+  idleExplorationIntervalMin: 2.2
+  idleExplorationIntervalMax: 5.5
+  idleExplorationCenterBias: 0.55
+  idleRecenteringChance: 0.32
+  minimumHeadContribution: 0.5
+  headBlendCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  neckShare: 0.62
+  enableUpperBodyFollow: 1
+  upperBodyFollowShare: 0.22
+  upperBodyActivationDegrees: 28
+  maxChestYaw: 5
+  maxChestPitch: 2.5
+  maxUpperChestYaw: 7
+  maxUpperChestPitch: 3.5
+  headReturnThresholdDegrees: 0.02

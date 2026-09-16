@@ -1,0 +1,30 @@
+{
+    "name": "Convai.Tests.PlayMode",
+    "rootNamespace": "Convai.Tests.PlayMode",
+    "references": [
+        "Convai.Domain",
+        "Convai.Domain.Embodiment",
+        "Convai.Transport.Native",
+        "Convai.Runtime",
+        "Convai.Modules.ConversationFlow",
+        "Convai.Modules.Attention",
+        "Convai.Modules.Emotion",
+        "Convai.Modules.Gaze",
+        "Convai.Modules.FacialAnimation",
+        "Convai.Modules.Embodiment"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

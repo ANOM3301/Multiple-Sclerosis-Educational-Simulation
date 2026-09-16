@@ -1,0 +1,23 @@
+{
+    "name": "Convai.Modules.DialogueAnimation.Editor",
+    "rootNamespace": "Convai.Modules.DialogueAnimation.Editor",
+    "references": [
+        "Convai.Editor",
+        "Convai.Domain",
+        "Convai.Domain.Embodiment",
+        "Convai.Runtime",
+        "Convai.Shared.Unity",
+        "Convai.Modules.DialogueAnimation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

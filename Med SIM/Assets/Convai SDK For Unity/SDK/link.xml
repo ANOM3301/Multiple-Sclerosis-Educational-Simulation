@@ -1,0 +1,44 @@
+<!--
+    IL2CPP Link Preservation for Convai SDK
+
+    Since Phase 3.2, the SDK no longer uses runtime reflection for type discovery.
+    Only types that require dynamic instantiation or serialization need preservation.
+
+    Categories:
+    - External dependencies (LiveKitBridge) - preserve all (we don't control their internals)
+    - Networking transports - preserve for factory patterns and serialization
+    - Modules with JSON/protobuf serialization - preserve data types
+-->
+<linker>
+    <!-- External dependency - preserve all to avoid breaking changes -->
+    <assembly fullname="LiveKitBridge" preserve="all"/>
+
+    <!-- WebGL transport - preserves types for JS interop and message serialization -->
+    <assembly fullname="Convai.Infrastructure.Networking.WebGL">
+        <!-- Controllers and factories -->
+        <type fullname="Convai.Infrastructure.Networking.WebGL.*Controller" preserve="all"/>
+        <type fullname="Convai.Infrastructure.Networking.WebGL.*Factory" preserve="all"/>
+        <!-- Message types for JSON serialization -->
+        <type fullname="Convai.Infrastructure.Networking.WebGL.Models.*" preserve="all"/>
+    </assembly>
+
+    <!-- Native transport - preserves types for LiveKit integration -->
+    <assembly fullname="Convai.Infrastructure.Networking.Native">
+        <!-- Controllers and factories -->
+        <type fullname="Convai.Infrastructure.Networking.Native.*Controller" preserve="all"/>
+        <type fullname="Convai.Infrastructure.Networking.Native.*Factory" preserve="all"/>
+    </assembly>
+
+    <!-- Narrative module - preserves serializable data and managers -->
+    <assembly fullname="Convai.Modules.Narrative">
+        <!-- Scene data and configuration types -->
+        <type fullname="Convai.Modules.Narrative.Data.*" preserve="all"/>
+        <type fullname="Convai.Modules.Narrative.ConvaiNarrativeDesignManager" preserve="all"/>
+    </assembly>
+
+    <!-- Vision module - preserves types for camera and video processing -->
+    <assembly fullname="Convai.Modules.Vision">
+        <type fullname="Convai.Modules.Vision.ConvaiVisionPublisher" preserve="all"/>
+        <type fullname="Convai.Modules.Vision.*Settings" preserve="all"/>
+    </assembly>
+</linker>

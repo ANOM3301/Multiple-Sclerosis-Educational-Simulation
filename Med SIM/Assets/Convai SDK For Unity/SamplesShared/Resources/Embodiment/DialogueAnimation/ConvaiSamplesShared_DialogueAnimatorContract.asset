@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbb0d556a7c4f6cad5194d90cda80db, type: 3}
+  m_Name: ConvaiSamplesShared_DialogueAnimatorContract
+  m_EditorClassIdentifier: Convai.Modules.DialogueAnimation::Convai.Modules.DialogueAnimation.Runtime.DialogueAnimatorContract
+  _baseIdleLayerIndex: 0
+  _idleOverlayLayerIndex: 1
+  _bodyTalkLayerIndex: 2
+  _headTalkLayerIndex: 3
+  _baseIdleStateName: BaseIdle
+  _idleOverlayStateA: IdleOverlay_A
+  _idleOverlayStateB: IdleOverlay_B
+  _bodyTalkStateA: BodyTalk_A
+  _bodyTalkStateB: BodyTalk_B
+  _headTalkStateA: HeadTalk_A
+  _headTalkStateB: HeadTalk_B
+  _basePlaceholderName: ConvaiDialogueSlot_BaseIdle
+  _idleOverlayPlaceholderA: ConvaiDialogueSlot_IdleOverlayA
+  _idleOverlayPlaceholderB: ConvaiDialogueSlot_IdleOverlayB
+  _bodyTalkPlaceholderA: ConvaiDialogueSlot_BodyTalkA
+  _bodyTalkPlaceholderB: ConvaiDialogueSlot_BodyTalkB
+  _headTalkPlaceholderA: ConvaiDialogueSlot_HeadTalkA
+  _headTalkPlaceholderB: ConvaiDialogueSlot_HeadTalkB

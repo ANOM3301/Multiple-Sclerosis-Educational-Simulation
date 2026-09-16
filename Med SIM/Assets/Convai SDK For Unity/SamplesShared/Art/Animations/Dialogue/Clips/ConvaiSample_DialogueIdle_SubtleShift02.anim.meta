@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f17879a8b2b8474b83e3463c98b606b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI Engine - Dialog, actions, voice and lipsync - Convai
+  packageVersion: 4.4.1
+  assetPath: Assets/Convai SDK For Unity/SamplesShared/Art/Animations/Dialogue/Clips/ConvaiSample_DialogueIdle_SubtleShift02.anim
+  uploadId: 964386

@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15fdc7f985ec4640be192e63c9c2a8b, type: 3}
+  m_Name: ConvaiSamplesShared_EmotionProfile
+  m_EditorClassIdentifier: Convai.Modules.Emotion::Convai.Modules.Emotion.Profiles.EmotionProfile
+  taxonomy: {fileID: 11400000, guid: a9420d0ac0df18e47b4ac7412066d539, type: 2}
+  lerpSpeed: 4.5
+  decaySpeed: 1.8
+  intensityOffset: -0.2
+  microBurstEnabled: 1
+  microBurstDuration: 0.28
+  microBurstOvershoot: 1.35
+  microBurstThreshold: 0.18
+  neutralAlternationEnabled: 1
+  alternationMinInterval: 3.5
+  alternationMaxInterval: 8
+  alternationBlendDuration: 1.1
+  alternateOnlyWhileTalking: 0
+  blendshapeBinding:
+    slots:
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Mouth_Smile_L,Mouth_Smile_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 63.963062
+      isMouthShape: 1
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 29.131733
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Inner_L,Brow_Raise_Inner_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 28.819157
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 28.819157
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Head_Tilt_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 7.3241825
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_Down
+      weightMultiplier: 1
+      fullBlendshapeWeight: 5.785771
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Mouth_Frown_L,Mouth_Frown_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 4.592641
+      isMouthShape: 1
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Mouth_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.493269
+      isMouthShape: 1
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_L,Eye_Wide_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.3900785
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.3713915
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Jaw_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.2439418
+      isMouthShape: 1
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.8725445
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_L,Eye_Blink_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.9522764
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.20018215
+      isMouthShape: 0
+    - emotionLabel: joy
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.15368015
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Mouth_Frown_L,Mouth_Frown_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 56.28532
+      isMouthShape: 1
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Inner_L,Brow_Raise_Inner_R
+      weightMultiplier: 1.0759681
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_L,Eye_Wide_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 22.193617
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_Down
+      weightMultiplier: 1
+      fullBlendshapeWeight: 9.071575
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_L,Eye_Squint_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 7.1880116
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Mouth_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.2348845
+      isMouthShape: 1
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Jaw_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.911396
+      isMouthShape: 1
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_L,Eye_Blink_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.686376
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Upper
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.6477444
+      isMouthShape: 1
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.3697784
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Head_Tilt_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.1946037
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.125888
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.0657009
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Lower
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.0401852
+      isMouthShape: 1
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 97.84382
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 97.45187
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Nose_Sneer_L,Nose_Sneer_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 66.82171
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 54.86291
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 54.48275
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 29.083433
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 24.154217
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 17.5904
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 14.937456
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Mouth_Frown_L,Mouth_Frown_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 7.393676
+      isMouthShape: 1
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 6.0863876
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 4.233507
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Lower
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.9912727
+      isMouthShape: 1
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.5203772
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.3601153
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Inner_L,Brow_Raise_Inner_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.0674675
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.8193095
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Mouth_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.545506
+      isMouthShape: 1
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Jaw_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.3909556
+      isMouthShape: 1
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_Down
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.80487186
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: 
+      blendshapeNames: Head_Tilt_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.4533851
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Inner_L,Brow_Raise_Inner_R
+      weightMultiplier: 1.579166
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_L,Eye_Wide_R
+      weightMultiplier: 1.016262
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 42.458897
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 41.358437
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 36.45422
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 35.98119
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_L,Brow_Drop_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 19.581144
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Stretch_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 14.796422
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Stretch_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 14.027317
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_L,Brow_Raise_Outer_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 12.727743
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Down_Lower_L,Mouth_Down_Lower_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 10.019513
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Roll_In_Lower_L,Mouth_Roll_In_Lower_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 10.019513
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Roll_In_Upper_L,Mouth_Roll_In_Upper_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 10.019513
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Lower
+      weightMultiplier: 1
+      fullBlendshapeWeight: 10.019513
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Up_Upper_L,Mouth_Up_Upper_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 10.019513
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Pucker_Down_L,Mouth_Pucker_Down_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 9.178661
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Pucker_Up_L,Mouth_Pucker_Up_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 9.178661
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Head_Tilt_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 7.627665
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Upper
+      weightMultiplier: 1
+      fullBlendshapeWeight: 6.011708
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Jaw_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.3749967
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Mouth_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.8749982
+      isMouthShape: 1
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_Down
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.2416037
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.1396974
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.18750072
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Inner_L,Brow_Raise_Inner_R
+      weightMultiplier: 1.0646996
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_L
+      weightMultiplier: 1.0003097
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_R
+      weightMultiplier: 1.0000453
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 66.15113
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 63.583553
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Mouth_Pucker_Down_L,Mouth_Pucker_Down_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 31.24753
+      isMouthShape: 1
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Mouth_Pucker_Up_L,Mouth_Pucker_Up_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 31.24753
+      isMouthShape: 1
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 25.156754
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 20.2477
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 10
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 8.54076
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Jaw_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 7.6073856
+      isMouthShape: 1
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Mouth_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 4.2263255
+      isMouthShape: 1
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_Down
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.6046257
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 2.2663004
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.7975506
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Mouth_Smile_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.6905292
+      isMouthShape: 1
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Head_Tilt_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.179183
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.73649055
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_L
+      weightMultiplier: 1.1296328
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_R
+      weightMultiplier: 1.1258185
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_L
+      weightMultiplier: 1.0678664
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_R
+      weightMultiplier: 1.0419474
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Nose_Sneer_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 87.60819
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Nose_Sneer_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 86.812836
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 80.84882
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Brow_Drop_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 79.935326
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Down_Lower_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 54.46946
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Down_Lower_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 54.437897
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Up_Upper_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 54.075287
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Up_Upper_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 54.0428
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 23.468246
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Eye_Squint_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 23.068476
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 19.117577
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Eye_Wide_L,Eye_Wide_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 18.905834
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Eye_Blink_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 18.867577
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Jaw_Forward
+      weightMultiplier: 1
+      fullBlendshapeWeight: 9.124269
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Frown_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 8.479207
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Frown_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 8.102498
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Inner_L,Brow_Raise_Inner_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 7.53587
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Lower
+      weightMultiplier: 1
+      fullBlendshapeWeight: 5.726753
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Head_Tilt_R
+      weightMultiplier: 1
+      fullBlendshapeWeight: 4.861664
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Shrug_Upper
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.8178358
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Jaw_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 3.3848338
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_Down
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.5128913
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Head_Turn_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.1603633
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 1.1282777
+      isMouthShape: 1
+    - emotionLabel: disgust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Dimple_L
+      weightMultiplier: 1
+      fullBlendshapeWeight: 0.3760926
+      isMouthShape: 1
+    - emotionLabel: trust
+      animatorParameterName: 
+      blendshapeNames: Mouth_Smile_L,Mouth_Smile_R
+      weightMultiplier: 0.6
+      fullBlendshapeWeight: 45
+      isMouthShape: 1
+    - emotionLabel: trust
+      animatorParameterName: 
+      blendshapeNames: Cheek_Raise_L,Cheek_Raise_R
+      weightMultiplier: 0.4
+      fullBlendshapeWeight: 30
+      isMouthShape: 0
+    - emotionLabel: anticipation
+      animatorParameterName: 
+      blendshapeNames: Mouth_Smile_L,Mouth_Smile_R
+      weightMultiplier: 0.5
+      fullBlendshapeWeight: 40
+      isMouthShape: 1
+    - emotionLabel: anticipation
+      animatorParameterName: 
+      blendshapeNames: Brow_Raise_Outer_L,Brow_Raise_Outer_R
+      weightMultiplier: 0.55
+      fullBlendshapeWeight: 40
+      isMouthShape: 0
+  animatorBinding:
+    slots:
+    - emotionLabel: joy
+      animatorParameterName: Emotion_Joy
+      blendshapeNames: 
+      weightMultiplier: 1
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: sadness
+      animatorParameterName: Emotion_Sadness
+      blendshapeNames: 
+      weightMultiplier: 1
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: anger
+      animatorParameterName: Emotion_Anger
+      blendshapeNames: 
+      weightMultiplier: 1
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: fear
+      animatorParameterName: Emotion_Fear
+      blendshapeNames: 
+      weightMultiplier: 1
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: surprise
+      animatorParameterName: Emotion_Surprise
+      blendshapeNames: 
+      weightMultiplier: 1
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: disgust
+      animatorParameterName: Emotion_Disgust
+      blendshapeNames: 
+      weightMultiplier: 1
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: trust
+      animatorParameterName: Emotion_Trust
+      blendshapeNames: 
+      weightMultiplier: 0.6
+      fullBlendshapeWeight: 100
+      isMouthShape: 0
+    - emotionLabel: anticipation
+      animatorParameterName: Emotion_Anticipation
+      blendshapeNames: 
+      weightMultiplier: 0.5
+      fullBlendshapeWeight: 100
+      isMouthShape: 0

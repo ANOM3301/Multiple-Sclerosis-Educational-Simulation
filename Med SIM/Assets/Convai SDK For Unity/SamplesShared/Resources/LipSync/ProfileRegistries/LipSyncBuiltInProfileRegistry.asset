@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21ea64cc32ca1f14eae1be7d5fe0e993, type: 3}
+  m_Name: LipSyncBuiltInProfileRegistry
+  m_EditorClassIdentifier: 
+  _priority: 0
+  _profiles:
+  - {fileID: 11400000, guid: 7f70ff5d65b14d79b1237e2f14f74798, type: 2}
+  - {fileID: 11400000, guid: 9f3b414f6d3646d9ab4069f5972711a2, type: 2}
+  - {fileID: 11400000, guid: f98f47e1fcf04957afed54c47dbf96b0, type: 2}

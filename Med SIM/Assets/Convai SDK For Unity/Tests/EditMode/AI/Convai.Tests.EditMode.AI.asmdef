@@ -1,0 +1,40 @@
+{
+    "name": "Convai.Tests.EditMode.AI",
+    "rootNamespace": "Convai.Tests.EditMode.AI",
+    "references": [
+        "Convai.Domain",
+        "Convai.Editor",
+        "Convai.Editor.AI",
+        "Convai.Modules.LipSync.Editor.AI",
+        "Convai.Modules.Narrative",
+        "Convai.Modules.Narrative.Editor.AI",
+        "Convai.Runtime",
+        "Convai.Runtime.UI",
+        "Unity.AI.MCP.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "CONVAI_UNITY_MCP"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.ai.assistant",
+            "expression": "[2.13.0-pre.2,3.0.0)",
+            "define": "CONVAI_UNITY_MCP"
+        }
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "noEngineReferences": false
+}

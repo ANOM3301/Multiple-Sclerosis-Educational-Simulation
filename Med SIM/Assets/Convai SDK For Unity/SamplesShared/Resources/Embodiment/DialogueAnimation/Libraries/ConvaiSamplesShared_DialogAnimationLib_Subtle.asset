@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e070ea53b67c7e4ca0f44d6899dd5dd, type: 3}
+  m_Name: ConvaiSamplesShared_DialogAnimationLib_Subtle
+  m_EditorClassIdentifier: 
+  _idles:
+  - _clip: {fileID: 7400000, guid: 7af9b334e3ee9224a8f00950fa9dbff7, type: 2}
+    _gender: 0
+    _preferredEmotions: 
+    _selectionWeight: 1.45
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  - _clip: {fileID: 7400000, guid: d47a8efac21d1b6489caaf6a10a6b4dc, type: 2}
+    _gender: 0
+    _preferredEmotions: 
+    _selectionWeight: 1.35
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  - _clip: {fileID: 7400000, guid: 5312decf6d4c08841be2faa523bd81b0, type: 2}
+    _gender: 0
+    _preferredEmotions: 01000000
+    _selectionWeight: 1.55
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  - _clip: {fileID: 7400000, guid: 3fd45a3f162eabb41b4aae6f1ebdc38f, type: 2}
+    _gender: 0
+    _preferredEmotions: 
+    _selectionWeight: 1.3
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  _talks:
+  - _clip: {fileID: 7400000, guid: ce247af69f2799c409bee5fc1c441fda, type: 2}
+    _gender: 0
+    _preferredEmotions: 
+    _selectionWeight: 1.35
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  - _clip: {fileID: 7400000, guid: 8ffe641cecc7bdb439e5ad30d0cefa71, type: 2}
+    _gender: 0
+    _preferredEmotions: 0100000007000000
+    _selectionWeight: 1.3
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  - _clip: {fileID: 7400000, guid: 11ecf2043fc80d945abb6fc7c93354ca, type: 2}
+    _gender: 0
+    _preferredEmotions: 
+    _selectionWeight: 1.35
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 0
+  - _clip: {fileID: 7400000, guid: 150d50625a29b924d8d7de2c50efbd3b, type: 2}
+    _gender: 0
+    _preferredEmotions: 
+    _selectionWeight: 1
+    _crossFadeDurationOverride: 0
+    _talkBodyCoverage: 2
+  _defaultCrossFadeDuration: 0.92

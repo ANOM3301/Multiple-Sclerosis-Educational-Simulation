@@ -1,0 +1,24 @@
+﻿<Solution>
+  <Project Path="Convai.Runtime.csproj" />
+  <Project Path="LiveKit.csproj" />
+  <Project Path="Convai.Runtime.UI.csproj" />
+  <Project Path="Convai.Domain.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Convai.Modules.LipSync.csproj" />
+  <Project Path="Convai.Tests.EditMode.csproj" />
+  <Project Path="Convai.Transport.WebGL.csproj" />
+  <Project Path="Convai.Transport.Native.csproj" />
+  <Project Path="LiveKitBridge.csproj" />
+  <Project Path="Convai.Editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Convai.Modules.Narrative.csproj" />
+  <Project Path="Convai.Shared.Unity.csproj" />
+  <Project Path="Convai.RestAPI.csproj" />
+  <Project Path="Convai.Modules.Vision.csproj" />
+  <Project Path="Convai.Sample.csproj" />
+  <Project Path="Convai.Samples.LipSyncSample.csproj" />
+  <Project Path="Reallusion.CCiC.Editor.csproj" />
+  <Project Path="LiveKit.Editor.csproj" />
+  <Project Path="Reallusion.CCiC.Runtime.csproj" />
+  <Project Path="Convai.Tests.PlayMode.csproj" />
+</Solution>

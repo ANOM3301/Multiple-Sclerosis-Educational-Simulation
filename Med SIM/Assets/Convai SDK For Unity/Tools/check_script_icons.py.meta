@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 91218e640d6ed414c8cdc1d3e1e918e7
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI Engine - Dialog, actions, voice and lipsync - Convai
+  packageVersion: 4.4.1
+  assetPath: Assets/Convai SDK For Unity/Tools/check_script_icons.py
+  uploadId: 964386

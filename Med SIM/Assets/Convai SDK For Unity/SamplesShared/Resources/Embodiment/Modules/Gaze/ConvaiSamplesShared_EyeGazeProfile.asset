@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b8480d84d5c5bb489f4e2343bcd0c4b, type: 3}
+  m_Name: ConvaiSamplesShared_EyeGazeProfile
+  m_EditorClassIdentifier: Convai.Modules.Gaze::Convai.Modules.Gaze.Profiles.EyeGazeProfile
+  trackingSharpness: 16
+  maxYawDegrees: 35
+  maxPitchDegrees: 22
+  enableSaccades: 0
+  saccadeIntervalMean: 1.9
+  saccadeIntervalJitter: 0.7
+  saccadeMaxDegrees: 2.2
+  saccadeDuration: 0.06
+  enableMicroTremor: 0
+  microTremorAmplitude: 0.15
+  microTremorFrequency: 11
+  enableIdleExploration: 1
+  idleExplorationWeight: 0.7
+  idleExplorationHorizontalDegrees: 14
+  idleExplorationUpDegrees: 5
+  idleExplorationDownDegrees: 8
+  idleExplorationIntervalMin: 1.1
+  idleExplorationIntervalMax: 3.2
+  idleExplorationCenterBias: 0.38
+  idleRecenteringChance: 0.22
+  enableBlink: 1
+  blinkIntervalMean: 3.4
+  blinkIntervalJitter: 1.3
+  blinkCycleDuration: 0.13

@@ -1,0 +1,28 @@
+{
+    "name": "Convai.Modules.DialogueAnimation.Rigging",
+    "rootNamespace": "Convai.Modules.DialogueAnimation.Rigging",
+    "references": [
+        "Convai.Domain",
+        "Convai.Domain.Embodiment",
+        "Convai.Runtime",
+        "Convai.Modules.DialogueAnimation",
+        "Unity.Animation.Rigging"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "CONVAI_ANIMATION_RIGGING"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.animation.rigging",
+            "expression": "1.0.0",
+            "define": "CONVAI_ANIMATION_RIGGING"
+        }
+    ],
+    "noEngineReferences": false
+}

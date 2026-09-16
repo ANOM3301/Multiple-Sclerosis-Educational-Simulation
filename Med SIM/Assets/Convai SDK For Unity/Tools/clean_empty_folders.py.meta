@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1b2c3d4e5f6478990abcdef12345678
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI Engine - Dialog, actions, voice and lipsync - Convai
+  packageVersion: 4.4.1
+  assetPath: Assets/Convai SDK For Unity/Tools/clean_empty_folders.py
+  uploadId: 964386

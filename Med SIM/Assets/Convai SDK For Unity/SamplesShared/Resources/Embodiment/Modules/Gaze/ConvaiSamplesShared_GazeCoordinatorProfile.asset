@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea170ff60dcf9a546b9aa3e79e551803, type: 3}
+  m_Name: ConvaiSamplesShared_GazeCoordinatorProfile
+  m_EditorClassIdentifier: Convai.Modules.Gaze::Convai.Modules.Gaze.Profiles.GazeCoordinatorProfile
+  stateWeights:
+  - State: 0
+    OverallWeight: 0.45
+    EyeShare: 0.85
+    SuppressAttentionTarget: 1
+  - State: 1
+    OverallWeight: 0.93
+    EyeShare: 0.52
+    SuppressAttentionTarget: 0
+  - State: 2
+    OverallWeight: 0.9
+    EyeShare: 0.62
+    SuppressAttentionTarget: 0
+  - State: 3
+    OverallWeight: 0.95
+    EyeShare: 0.8
+    SuppressAttentionTarget: 0
+  - State: 4
+    OverallWeight: 1
+    EyeShare: 0.45
+    SuppressAttentionTarget: 0
+  - State: 5
+    OverallWeight: 0.95
+    EyeShare: 0.48
+    SuppressAttentionTarget: 0
+  - State: 6
+    OverallWeight: 0.88
+    EyeShare: 0.85
+    SuppressAttentionTarget: 0
+  - State: 7
+    OverallWeight: 0.93
+    EyeShare: 0.7
+    SuppressAttentionTarget: 0
+  weightBlendSpeed: 6
+  eyeShareBlendSpeed: 4.5
