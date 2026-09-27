@@ -1,5 +1,7 @@
 # Multiple Sclerosis Educational Simulation
 
+THE SIMULATION IS LIVE AT anom3301.itch.io/ms-sim
+
 An interactive Unity-based simulation designed to demonstrate how different signs and symptoms of Multiple Sclerosis (MS) can affect everyday activities.
 
 ## About the Project
